@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>FunctionsAndExceptionHandlingDemo.ParamsKeywordDemo</StartupObject>
+    <StartupObject>FunctionsAndExceptionHandlingDemo.CustomExceptionDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ByValAndByRefDemo.cs" />
+    <Compile Include="CustomExceptionDemo.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="ExcepDemo.cs" />
+    <Compile Include="InvalidEmpCode.cs" />
     <Compile Include="MyMath.cs" />
     <Compile Include="OptionalParamDemo.cs" />
     <Compile Include="OutParamDemo.cs" />
